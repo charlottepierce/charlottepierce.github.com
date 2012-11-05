@@ -1,0 +1,12 @@
+---
+layout: default
+title: archive
+---
+
+<ul id="archiveList">
+	{% for post in site.posts %}
+	<li>
+		<a href="{{ post.url }}"><h3>{{ post.title }}</a> <div id="entryDetail">({{ post.date | date: "%d-%m-%Y" }}): {{ post.summary }}</div>
+	</li>
+	{% endfor %}
+</ul>
