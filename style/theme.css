@@ -3,7 +3,7 @@ html,body {
 	padding : 0;
 	height : 100%; /* needed for container min-height */
 
-	background-image : url('images/background.png');
+	background-image : url('images/ravenna.png');
 	background-repeat : repeat;
 }
 
