@@ -10,7 +10,7 @@ html,body {
 div#container {
 	position : relative; /* needed for footer positioning*/
 	margin : 0 auto; /* center */
-	width : 800px;
+	width : 850px;
 	height : auto !important;
 	height : 100%; /* IE6 */
 	min-height : 100%;
@@ -18,7 +18,7 @@ div#container {
 }
 
 div#header {
-	background : #F5F5F5;
+	background : #FFFFFF;
 	padding : 1em 1em 1em 1em;
 	margin-bottom : 10px;
 }
@@ -69,7 +69,7 @@ a:hover {color : #8C8C8C;}
 a:active {color : #3C3C3C;}
 
 div#content {
-	background : #F5F5F5;
+	background : #FFFFFF;
 	padding-top : 1em;
 	padding-bottom : 1.5em;
 	margin-bottom : 1.5em;
@@ -118,7 +118,7 @@ div#content ul#archiveList div#entryDetail {
 div#footer {
 	position : absolute;
 	font-size : 11pt;
-	background : #F5F5F5;
+	background : #FFFFFF;
 	width : 100%;
 	bottom : 0; /* stick to bottom */
 	text-align : center;
@@ -149,10 +149,10 @@ div#header h1 a:active {color : #000000;}
 
 /* Rounded corners to every div with the class 'roundCorners' */
 .roundCorners{
-	-moz-border-radius : 30px; /* Firefox */
-	-webkit-border-radius : 30px; /* Chrome/Safari */
-	-khtml-border-radius : 30px; /* Konquerer */
-	border-radius : 30px;
+	-moz-border-radius : 25px; /* Firefox */
+	-webkit-border-radius : 25px; /* Chrome/Safari */
+	-khtml-border-radius : 25px; /* Konquerer */
+	border-radius : 25px;
 }
 
 /* Only round top corners of footer */
