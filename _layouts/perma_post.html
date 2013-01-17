@@ -1,45 +1,38 @@
 <html>
 <head>
+	<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+
 	<title>Malformed Bits - Learning stuff, bit by bit.</title>
-	<link rel="stylesheet" href="/style/theme.css" />
 </head>
 
 <body>
-	<div id="container">
-		<div id="navbar">
-			<ul>
-				<li><a id="navabout" href="/about/">about</a></li>
-				<li><a id="navprojects" href="/projects/">projects</a></li>
-				<li><a id="navblog" href="/">blog</a></li>
-			</ul>
-		</div>
-		<div id="header" class="roundCorners">
-			<h1><a href="/">Malformed Bits</a></h1>
-			<h2>(I'm more charismatic in text.)</h2>
-		</div>
+	<div class="container">
+		{% include page_header.html %}
 
-		<div id="content" class="roundCorners">
-			<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-			<div id="postdate">[{{ page.date | date: "%d %B %Y" }}]</div>
+		<div class="content">
+			<h1><a href="{{ page.url }}">{{ page.title }}</a>
+				{% if page.date %}
+					<small>[{{ page.date | date: "%d %B %Y" }}]</small>
+				{% endif %}
+			</h1>
 
 			{{ content }}
 
-			{% if page.previous.url %}
-				<a id="prevPost" href="{{ page.previous.url }}">&lt;- {{ page.previous.title }}</a>
-			{% endif %}
-			{% if page.next.url %}
-				<a id="nextPost" href="{{ page.next.url }}">{{ page.next.title }} -&gt;</a>
-			{% endif %}
-		</div>
+			<div id="post-navigation">
+				{% if page.previous.url %}
+					<a id="prev-post-link" class="btn btn-info btn-mini" href="{{ page.previous.url }}" ><i class="icon-white icon-chevron-left"></i> {{ page.previous.title }}</a>
+				{% endif %}
+				{% if page.next.url %}
+					<a id="next-post-link" class="btn btn-info btn-mini" href="{{ page.next.url }}" >{{ page.next.title }} <i class="icon-white icon-chevron-right"></i></a>
+				{% endif %}
+			</div>
 
-		<div>&nbsp;</div>
-		<div id="footer" class="roundCorners">
-			<ul id="extlinks">
-				<li><a href="https://github.com/zandomatter">github</a></li>
-				<li><a href="https://bitbucket.org/zandomatter/">bitbucket</a></li>
-				<li><a href="/archive/">archive</a></li>
-			</ul>
 		</div>
 	</div>
 </body>
 </html>
+
