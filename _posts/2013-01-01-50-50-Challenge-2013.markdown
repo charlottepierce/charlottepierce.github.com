@@ -1,5 +1,5 @@
 ---
-layout: perma\_post
+layout: perma_post
 summary: 50 books, 50 movies challenge for 2013.
 ---
 
