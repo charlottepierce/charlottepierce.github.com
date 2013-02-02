@@ -1,0 +1,28 @@
+---
+layout: perma\_post
+summary: 50 books, 50 movies challenge for 2013.
+---
+
+What's this about? See [here](http://www.fiftyfifty.me/introduction/).
+
+### Books: ###
+
+1. The Time Travelers Wife - Audrey Niffenegger ([goodreads](http://www.goodreads.com/book/show/881710.The_Time_Travelers_Wife))
+2. The World of the Concert Pianist - David Dubal ([goodreads](http://www.goodreads.com/book/show/168807.Reflections_from_the_Keyboard))
+3. Labyrinths - Jorge Luis Borges ([goodreads](http://www.goodreads.com/book/show/17717.Labyrinths))
+4. Brave New World - Aldous Huxley ([goodreads](http://www.goodreads.com/book/show/5129.Brave_New_World))
+5. 1984 - George Orwell ([goodreads](http://www.goodreads.com/book/show/185900.Nineteen_Eighty_Four))
+
+### Movies: ###
+
+1. Les Miserables ([imdb](http://www.imdb.com/title/tt1707386/))
+2. Quartet ([imdb](http://www.imdb.com/title/tt1441951/))
+3. The Backup Plan ([imdb](http://www.imdb.com/title/tt1212436/))
+4. Waterloo Bridge ([imdb](http://www.imdb.com/title/tt0033238/))
+5. Ninotchka ([imdb](http://www.imdb.com/title/tt0031725/))
+6. Gumby: The Movie ([imdb](http://www.imdb.com/title/tt0113234/))
+7. Tubby the Tuba ([imdb](http://www.imdb.com/title/tt0253848/))
+8. Hitchcock ([imdb](http://www.imdb.com/title/tt0975645/))
+9. Life of Pi ([imdb](http://www.imdb.com/title/tt0454876/))
+10. Scott Pilgrim vs. the World ([imdb](http://www.imdb.com/title/tt0446029/))
+
