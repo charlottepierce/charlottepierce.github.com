@@ -26,3 +26,4 @@ What's this about? See [here](http://www.fiftyfifty.me/introduction/).
 9. Life of Pi ([imdb](http://www.imdb.com/title/tt0454876/))
 10. Scott Pilgrim vs. the World ([imdb](http://www.imdb.com/title/tt0446029/))
 11. Julie & Julia ([imdb](http://www.imdb.com/title/tt1135503/))
+12. The Perks of Being a Wallflower ([imdb](http://www.imdb.com/title/tt1659337/))
