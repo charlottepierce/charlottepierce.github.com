@@ -13,6 +13,7 @@ What's this about? See [here](http://www.fiftyfifty.me/introduction/).
 4. Brave New World - Aldous Huxley ([goodreads](http://www.goodreads.com/book/show/5129.Brave_New_World))
 5. 1984 - George Orwell ([goodreads](http://www.goodreads.com/book/show/185900.Nineteen_Eighty_Four))
 6. The Loop - Nicholas Evans ([goodreads](http://www.goodreads.com/book/show/25422))
+7. Snow Crash - Neal Stephenson ([goodreads](http://www.goodreads.com/book/show/830.Snow_Crash))
 
 ### Films: ###
 
@@ -28,3 +29,6 @@ What's this about? See [here](http://www.fiftyfifty.me/introduction/).
 10. Scott Pilgrim vs. the World ([imdb](http://www.imdb.com/title/tt0446029/))
 11. Julie & Julia ([imdb](http://www.imdb.com/title/tt1135503/))
 12. The Perks of Being a Wallflower ([imdb](http://www.imdb.com/title/tt1659337/))
+13. Kung Fu Panda 2 ([imdb](http://www.imdb.com/title/tt1302011/))
+14. Puss In Boots ([imdb](http://www.imdb.com/title/tt0448694/))
+15. A Monster in Paris ([imdb](http://www.imdb.com/title/tt0961097/))
