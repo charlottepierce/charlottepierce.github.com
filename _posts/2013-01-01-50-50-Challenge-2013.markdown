@@ -41,3 +41,5 @@ What's this about? See [here](http://www.fiftyfifty.me/introduction/).
 18. Silver Linings Playbook ([imdb](http://www.imdb.com/title/tt1045658/))
 19. Frankenweenie ([imdb](http://www.imdb.com/title/tt1142977/))
 20. The Princess Diaries ([imdb](http://www.imdb.com/title/tt0247638/))
+21. The Bounty Hunter ([imdb](http://www.imdb.com/title/tt1038919/))
+22. Hyde Park on Hudson ([imdb](http://www.imdb.com/title/tt1477855/))
