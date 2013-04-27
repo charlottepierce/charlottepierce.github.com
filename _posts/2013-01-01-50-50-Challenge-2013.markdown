@@ -47,3 +47,4 @@ What's this about? See [here](http://www.fiftyfifty.me/introduction/).
 22. Hyde Park on Hudson ([imdb](http://www.imdb.com/title/tt1477855/))
 23. Toy Story ([imdb](http://www.imdb.com/title/tt0114709/))
 24. Toy Story 2 ([imdb](http://www.imdb.com/title/tt0120363/))
+25. War Horse ([imdb](http://www.imdb.com/title/tt1568911))
