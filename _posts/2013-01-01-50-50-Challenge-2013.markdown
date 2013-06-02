@@ -51,3 +51,5 @@ What's this about? See [here](http://www.fiftyfifty.me/introduction/).
 24. Toy Story 2 ([imdb](http://www.imdb.com/title/tt0120363/))
 25. War Horse ([imdb](http://www.imdb.com/title/tt1568911))
 26. Alice in Wonderland ([imdb](http://www.imdb.com/title/tt0043274/))
+27. Kath and Kimderella ([imdb](http://www.imdb.com/title/tt1859607/))
+28. The Great Gatsby ([imdb](http://www.imdb.com/title/tt1343092/))
