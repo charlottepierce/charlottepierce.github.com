@@ -57,3 +57,4 @@ What's this about? See [here](http://www.fiftyfifty.me/introduction/).
 29. Mulan ([imdb](http://www.imdb.com/title/tt0120762/))
 30. The Lion King ([imdb](http://www.imdb.com/title/tt0110357/))
 31. The Time Traveller's Wife ([imdb](http://www.imdb.com/title/tt0452694/))
+32. Despicable Me ([imdb](http://www.imdb.com/title/tt1323594/))
