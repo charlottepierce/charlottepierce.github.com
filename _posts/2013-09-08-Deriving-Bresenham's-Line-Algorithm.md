@@ -153,7 +153,7 @@ Applying both of these changes, we get the final algorithm, which handles all ca
 	dx = x1 - x0
 	dy = y1 - y0
 
-	isSteep = abs(dy) > abs(dy) # check if the line is steeper than a slope with a graident of [0, 1]
+	isSteep = abs(dy) > abs(dx) # check if the line is steeper than a slope with a graident of [0, 1]
 
 	if isSteep:
 		# line is steep, swap the roles (i.e., values) of x and y
