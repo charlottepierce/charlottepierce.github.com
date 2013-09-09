@@ -169,7 +169,7 @@ Applying both of these changes, we get the final algorithm, which handles all ca
 	b = -1 * dx
 	# do not need to calculate the value of 'c', as it is never used
 
-	d = 2(a + 0.5b)
+	d = 2a + b
 	dInc = 2 * a # increment for 'd' if 'y' was not incremented
 	yInc_dInc = 2 * (a + b) # increment for 'd' if 'y' was incremented
 
