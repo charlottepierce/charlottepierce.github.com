@@ -148,7 +148,7 @@ To avoid this we can multiply all values of `d` by `2`.
 This includes the initialisation of `d`, and all potential increments to `d`.
 
 We also need to handle lines which fall outside of the constraints defined earlier, being that the line must not be too steep, that `x0 < x1`, and that `dy >= 0`.
-Applying both of these changes, we get the final algorithm, which handles all cases, using only integers:
+By applying changes to avoid these constraints we get the final algorithm, which handles all cases, using only integers:
 
 	dx = x1 - x0
 	dy = y1 - y0
