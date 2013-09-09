@@ -147,7 +147,7 @@ However, notice that there is still some floating point calculations, specifical
 To avoid this we can multiply all values of `d` by `2`.
 This includes the initialisation of `d`, and all potential increments to `d`.
 
-We also need to handle lines which fall outside of the constraints defined earlier, being that the line must not be too steep, and that `x0 < x1`.
+We also need to handle lines which fall outside of the constraints defined earlier, being that the line must not be too steep, that `x0 < x1`, and that `dy >= 0`.
 Applying both of these changes, we get the final algorithm, which handles all cases, using only integers:
 
 	dx = x1 - x0
@@ -172,6 +172,10 @@ Applying both of these changes, we get the final algorithm, which handles all ca
 	d = 2a + b
 	dInc = 2 * a # increment for 'd' if 'y' was not incremented
 	yInc_dInc = 2 * (a + b) # increment for 'd' if 'y' was incremented
+	
+	yStep = 1
+	if (dy < 0):
+		yStep = -1 # line goes down, so if 'y' needs to be incremented, it needs to be incremented 'downwards', not 'upwards'
 
 	y = y0
 	for (x = x0; x <= x1; ++x):
@@ -182,7 +186,7 @@ Applying both of these changes, we get the final algorithm, which handles all ca
 
 		# choose next value for 'y' and update decision variable as appropriate
 		if d > 0:
-			y += 1
+			y += yStep
 			d += yInc_dInc
 		else:
 			d += dInc
