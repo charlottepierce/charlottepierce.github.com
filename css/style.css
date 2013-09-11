@@ -3,6 +3,12 @@ body {
   background-repeat: repeat;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container,
 .navbar-static-top .container,
 .navbar-fixed-top .container,
