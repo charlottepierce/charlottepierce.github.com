@@ -106,3 +106,7 @@ The subtree at this point is removed and 'regrown' using the same random process
 
 Mutation is typically assigned a very low probability of occurrence (e.g., 1 in 1000) to avoid introducing a detrimental level of randomness into the solution space.
 
+-----
+
+For a practical application of genetic programming, see [this post]({% post_url 2014-02-06-Goal-Oriented-Adversarial-Movement-Behaviours-with-Genetic-Programming %}).
+
