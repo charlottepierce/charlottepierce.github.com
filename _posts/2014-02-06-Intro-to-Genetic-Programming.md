@@ -13,7 +13,7 @@ Equipped with a set of actions, queries, and a method for assessing program perf
 # Process #
 
 Genetic programming begins with a set of randomly generated candidate solutions, and runs over a number of iterations.
-During each iteration the performance of each candidate isevaluated and each is assigned a 'fitness' value.
+During each iteration the performance of each candidate is evaluated and each is assigned a 'fitness' value.
 If the fitness measure is reasonable, the higher a fitness value is the better the candidate performed.
 
 Before each subsequent iteration an entirely new candidate population is created.
