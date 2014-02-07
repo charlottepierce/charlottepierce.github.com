@@ -6,7 +6,7 @@ summary: Basic ideas behind genetic programming.
 Genetic programming (GP) is a class of [evolutionary algorithm](https://en.wikipedia.org/wiki/Evolutionary_algorithm) concerned with generating a computer program to perform some task.
 [A Field Guide to Genetic Programming](http://www.gp-field-guide.org.uk/) describes the technique as follows:
 
-	"[genetic programming] automatically solves problems without requiring the user to know or specify the form or structure of the solution in advance"
+> [genetic programming] automatically solves problems without requiring the user to know or specify the form or structure of the solution in advance
 
 Equipped with a set of actions, queries, and a method for assessing program performance, genetic programming attempts to generate increasingly effective programs to solve a problem.
 
