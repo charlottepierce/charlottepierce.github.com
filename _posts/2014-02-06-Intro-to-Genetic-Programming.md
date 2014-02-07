@@ -1,5 +1,5 @@
 ---
-layout: perma_post
+layout: post
 summary: Basic ideas behind genetic programming.
 ---
 

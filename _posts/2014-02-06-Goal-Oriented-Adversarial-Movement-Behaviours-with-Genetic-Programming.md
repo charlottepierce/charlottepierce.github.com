@@ -1,5 +1,6 @@
 ---
-layout: perma_post
+layout: post
+title: Goal-Oriented Adversarial Movement Behaviours with Genetic Programming
 summary: Experimental application of genetic programming to generating agent movement behaviours.
 ---
 

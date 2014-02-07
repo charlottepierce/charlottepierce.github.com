@@ -1,8 +1,14 @@
 ---
-layout: default
+layout: layout
+title: "Malformed Bits"
 ---
-
-{% assign post = site.posts.first %}
-{% assign content = post.content %}
-{% include post_detail.html %}
-
+<section class="content">
+	<h1 class="thin">POSTS</h1>
+	<ul class="listing">
+		{% for post in site.posts %}
+		<li>
+			<span>{{ post.date | date: "%B %e, %Y" }}</span><a href="{{ post.url }}" title="{{ post.summary }}">{{ post.title }}</a>
+		</li>
+		{% endfor %}
+	</ul>
+</section>

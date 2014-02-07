@@ -1,5 +1,5 @@
 ---
-layout: perma_post
+layout: post
 summary: Explains how to use the parametric circle equation to draw a circle.
 ---
 

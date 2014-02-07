@@ -1,5 +1,5 @@
 ---
-layout: perma_post
+layout: post
 summary: Colouring in lessons, for your computer.
 ---
 

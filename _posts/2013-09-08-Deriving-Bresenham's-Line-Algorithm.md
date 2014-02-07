@@ -1,5 +1,5 @@
 ---
-layout: perma_post
+layout: post
 summary: Deriving Bresenham's line algorithm with optimisations to avoid floating point calculations.
 ---
 

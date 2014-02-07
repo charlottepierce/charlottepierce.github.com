@@ -1,5 +1,5 @@
 ---
-layout: perma_post
+layout: post
 summary: Deriving the midpoint circle drawing algorithm (an extension to Bresenham's line algorithm) with optimisations to avoid floating point calculations.
 ---
 
