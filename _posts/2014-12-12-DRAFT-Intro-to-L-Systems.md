@@ -22,6 +22,8 @@ Proposed by [Helge von Koch](http://en.wikipedia.org/wiki/Helge_von_Koch) in 190
 This is similar to the concept of productions, as with both methods the original shape is effectively rewritten with increasing complexity.
 However, unlike l-systems the the generator must implicitly be arranged (i.e., rotated and resized) so that the end points of the generator and the straight line it is replacing match.
 
+![Basic evolution of the Snowflake curve]({{sit.url}}/img/koch_construction.png)
+
 ## String Rewriting ##
 
 <!--axiom + rules -->
