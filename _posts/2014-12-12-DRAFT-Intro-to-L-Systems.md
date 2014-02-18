@@ -22,7 +22,7 @@ Proposed by [Helge von Koch](http://en.wikipedia.org/wiki/Helge_von_Koch) in 190
 This is similar to the concept of productions, as with both methods the original shape is effectively rewritten with increasing complexity.
 However, unlike l-systems the the generator must implicitly be arranged (i.e., rotated and resized) so that its end points match those of the straight line it is replacing.
 
-![Basic evolution of the Snowflake curve]({{site.url}}/img/koch_construction.png)
+![Basic evolution of the Snowflake curve]({{site.url}}/img/lsystems/koch_construction.png)
 
 ## String Rewriting ##
 
@@ -47,7 +47,6 @@ the following evolution would take place:
 
 ## Drawing  ##
 
-<!-- turtles! step size + angle increment variables  -->
 The drawing instructions used by the l-system grammer as described below are for a [turtle graphics](http://en.wikipedia.org/wiki/Turtle_graphics) system.
 A _turtle_ object is given a state consisting of:
 
@@ -60,7 +59,7 @@ After being initialised with a position and direction, the turtle can be instruc
 
 ### Commands ###
 
-The following commands can be used to 'instruct' a turtle, hence form the vocabulary of l-systems.
+The following commands can be used to 'instruct' a turtle, forming the vocabulary of l-systems.
 
 * `F`: move forward by length `d`
 * `f`: move forward by length `d` without drawing anything
@@ -72,4 +71,14 @@ The following commands can be used to 'instruct' a turtle, hence form the vocabu
 ## Evolving Shapes ##
 
 <!-- applying production rules; choosing between multiple production rules  -->
+To evolve a shape, simply apply the productions.
+For example, beginning with the initiator `F-F-F-F` and the production rule `F -> F-F+F+FF-F-F+F` we get the following evolution:
+
+	F-F-F-F
+	F-F+F+FF-F-F+F-F-F+F+FF-F-F+F-F-F+F+FF-F-F+F-F-F+F+FF-F-F+F
+	F-F+F+FF-F-F+F-F-F+F+FF-F-F+F+F-F+F+FF-F-F+F+F-F+F+FF-F-F+FF-F+F+FF-F-F+F-F-F+F+FF-F-F+F-F-F+F+FF-F-F+F+F-F+F+FF-F-F+F-F-F+F+FF-F-F+F-F-F+F+FF-F-F+F+F-F+F+FF-F-F+F+F-F+F+FF-F-F+FF-F+F+FF-F-F+F-F-F+F+FF-F-F+F-F-F+F+FF-F-F+F+F-F+F+FF-F-F+F-F-F+F+FF-F-F+F-F-F+F+FF-F-F+F+F-F+F+FF-F-F+F+F-F+F+FF-F-F+FF-F+F+FF-F-F+F-F-F+F+FF-F-F+F-F-F+F+FF-F-F+F+F-F+F+FF-F-F+F-F-F+F+FF-F-F+F-F-F+F+FF-F-F+F+F-F+F+FF-F-F+F+F-F+F+FF-F-F+FF-F+F+FF-F-F+F-F-F+F+FF-F-F+F-F-F+F+FF-F-F+F+F-F+F+FF-F-F+F
+
+Assuming an angle increment of 90 (i.e., `a = 90`), this evolution describes the following series of shapes:
+
+![Sample evolution]({{site.url}}/img/lsystems/simple_evolution.png)
 
