@@ -29,7 +29,7 @@ However, unlike l-systems the the generator must implicitly be arranged (i.e., r
 Both the initiator and productions are represented as simple strings, where each character represents a specific drawing command.
 As such, each evolution of a shape - beginning with the initiator - is literally a set of instructions describing how it can be drawn.
 
-Productions are written in the form `a -> X`, meaning the sequence `X` should replace every instance of the command `a`, where `a` is a _single_ drawing command.
+Productions are written in the form `a -> X`, meaning the sequence `X` should replace every instance of the command `a`, where `a` is a _single_[^1] drawing command.
 When evolving a shape each production is applied in parallel.
 For example, starting with the initiator `b` and the productions
 
@@ -81,4 +81,10 @@ For example, beginning with the initiator `F-F-F-F` and the production rule `F -
 Assuming an angle increment of 90 (i.e., `a = 90`), this evolution describes the following series of shapes:
 
 ![Sample evolution]({{site.url}}/img/lsystems/simple_evolution.png)
+
+### Conflicting Rules ###
+
+-----
+
+[^1]: _Pseudo l-systems_ allow multiple drawing commands to form a production predecessor.
 
