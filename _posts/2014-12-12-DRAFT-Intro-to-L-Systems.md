@@ -82,7 +82,14 @@ Assuming an angle increment of 90 (i.e., `a = 90`), this evolution describes the
 
 ![Sample evolution]({{site.url}}/img/lsystems/simple_evolution.png)
 
-### Conflicting Rules ###
+### Examples ###
+
+	d = 5
+	a = 30
+	initiator = F
+	productions = F -> F[+F]F[-F][F]
+
+![Simple plant evolution]({{site.url}}/img/lsystems/plant_evolution.png)
 
 -----
 
