@@ -86,5 +86,7 @@ Assuming an angle increment of 90 (i.e., `a = 90`), this evolution describes the
 
 -----
 
+# Notes #
+
 [^1]: _Pseudo l-systems_ allow multiple drawing commands to form a production predecessor.
 
