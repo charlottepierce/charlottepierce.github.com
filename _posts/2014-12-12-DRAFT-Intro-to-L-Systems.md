@@ -59,7 +59,7 @@ After being initialised with a position and direction, the turtle can be instruc
 
 ### Commands ###
 
-The following commands can be used to 'instruct' a turtle, forming the vocabulary of l-systems.
+The following commands can be used to 'instruct' a turtle, forming the vocabulary of l-systems[^2].
 
 * `F`: move forward by length `d`
 * `f`: move forward by length `d` without drawing anything
@@ -84,16 +84,27 @@ Assuming an angle increment of 90 (i.e., `a = 90`), this evolution describes the
 
 ### Examples ###
 
+L-systems can be used to easily create realistic plants of various sizes.
+For example, the following two plant shapes can be created using only a single production rule each:
+
 	d = 5
 	a = 30
 	initiator = F
 	productions = F -> F[+F]F[-F][F]
 
-![Simple plant evolution]({{site.url}}/img/lsystems/plant_evolution.png)
+![Simple plant evolution]({{site.url}}/img/lsystems/plant_evolution_1.png)
+
+	d = 5
+	a = 25
+	initiator = F
+	productions = F -> F[+F]F[-F]F
+
+![Simple plant evolution]({{site.url}}/img/lsystems/plant_evolution_2.png)
 
 -----
 
 # Notes #
 
 [^1]: _Pseudo l-systems_ allow multiple drawing commands to form a production predecessor.
+[^2]: Technically the 'push' and 'pop' commands are from an extension referred to as _branching l-systems_.
 
