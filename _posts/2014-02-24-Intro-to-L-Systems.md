@@ -103,7 +103,7 @@ For example, the following plant shapes can be evolved using only a single produ
 
 ![Simple plant evolution]({{site.url}}/img/lsystems/plant_evolution_2.png)
 
-The code used to create these images can be found on [GitHub](https://github.com/zandomatter/lsystems) and [Bitbucket](https://bitbucket.org/zandomatter/lsystems).
+The code used to create these images can be found on [GitHub](https://github.com/charlottepierce/lsystems) and [Bitbucket](https://bitbucket.org/charlottepierce/lsystems).
 
 # Notes #
 

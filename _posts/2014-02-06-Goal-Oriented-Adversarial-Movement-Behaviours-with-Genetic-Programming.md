@@ -18,5 +18,5 @@ Tests using five alternate game maps show the potential of the technique to solv
 -----
 
 The full paper can be found [here]({{site.url}}/pdf/gp_paper.pdf).
-Code is available on [GitHub](https://github.com/zandomatter/genetic_avoidance) and [Bitbucket](https://bitbucket.org/zandomatter/genetic_avoidance).
+Code is available on [GitHub](https://github.com/charlottepierce/genetic_avoidance) and [Bitbucket](https://bitbucket.org/charlottepierce/genetic_avoidance).
 
