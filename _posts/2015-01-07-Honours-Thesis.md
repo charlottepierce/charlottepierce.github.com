@@ -4,7 +4,7 @@ title: Honours Thesis
 summary: Abstract of my honours thesis.
 ---
 
-The following is the abstract for my honours thesis, __One-Shot Gesture Recognition as a Page Turning Device for Digital Music Stands__, submitted for a _Bachelor of Computer Science (Honours)_ at Swinburne University of Technology in 2014.
+The following is the abstract for my honours thesis, __One-Shot Gesture Recognition as a Page Turning Device for Digital Music Stands__, submitted for the degree of _Bachelor of Computer Science (Honours)_ at Swinburne University of Technology in 2014.
 
 # Abstract #
 
