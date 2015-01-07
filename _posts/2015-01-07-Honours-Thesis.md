@@ -4,6 +4,8 @@ title: Honours Thesis
 summary: Abstract of my honours thesis.
 ---
 
+The following is the abstract for my honours thesis, __One-Shot Gesture Recognition as a Page Turning Device for Digital Music Stands__, submitted for a _Bachelor of Computer Science (Honours)_ at Swinburne University of Technology in 2014.
+
 # Abstract #
 
 Digital music stands are an effective method of transporting large quantities of music scores, and as such are increasing in popularity amongst professional musicians.
