@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unity pitch control
+title: Unity Pitch Control
 summary: A Unity interface allowing audio inputs inputs to trigger keyboard button presses.
 ---
 
