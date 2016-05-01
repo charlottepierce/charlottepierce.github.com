@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unity MIDI control
+title: Updated Unity MIDI control
 summary: A Unity interface allowing MIDI instrument inputs to trigger keyboard button presses.
 ---
 
